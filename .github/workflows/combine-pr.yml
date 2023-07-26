@@ -19,3 +19,4 @@ jobs:
           pr_title: Combined Dependabot PRs
           select_label: dependencies
           labels: dependencies,combined-pr
+          github_token: ${{github.token}}
