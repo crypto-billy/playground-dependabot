@@ -14,10 +14,11 @@ jobs:
     steps:
       - name: combine-prs
         id: combine-prs
-        uses: github/combine-prs@v3.1.1
+        uses: crypto-billy/gha-combine-prs@v1.0.0
         with:
           pr_title: Combined Dependabot PRs
           select_label: dependencies
           labels: dependencies,combined-pr
           github_token: ${{ secrets.PAT }}
           ci_required: "false"
+          review_required: "false"
