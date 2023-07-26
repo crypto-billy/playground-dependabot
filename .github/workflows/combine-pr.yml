@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: combine-prs
         id: combine-prs
-        uses: crypto-billy/gha-combine-prs@v1.0.0
+        uses: crypto-billy/gha-combine-prs@latest
         with:
           pr_title: Combined Dependabot PRs
           select_label: dependencies
