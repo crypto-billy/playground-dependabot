@@ -20,3 +20,4 @@ jobs:
           select_label: dependencies
           labels: dependencies,combined-pr
           github_token: ${{ secrets.PAT }}
+          ci_required: "false"
